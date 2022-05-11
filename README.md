@@ -4,8 +4,7 @@ A collection of scripts for 7.5" e-ink displays
 
 ### Included scripts:
 
-- bitcoin.py
-  Shows some Bitcoin info:
+- `bitcoin.py` - shows some Bitcoin info:
 
   - current price
   - fear & greed index
@@ -14,8 +13,7 @@ A collection of scripts for 7.5" e-ink displays
   - moscow time
   - fees
 
-- picture.py
-  Loops images in `pictures` folder
+- `picture.py` - loops images in `pictures` folder
 
 ### Required hardware:
 
@@ -30,9 +28,11 @@ A collection of scripts for 7.5" e-ink displays
 3.  SSH in with user dietpi
 4.  In ~, clone Waveshare e-Paper repo from
     https://github.com/waveshare/e-Paper
-5.  Install additional dependencies:
+5.  Clone this repo or download and extract it to:
+    `/home/dietpi/e-Paper/RaspberryPi_JetsonNano/python`
+6.  Install additional dependencies:
     - ???
-6.  Setup crontab:
+7.  Setup crontab:
 
     - `crontab -e`
     - Enter:
@@ -41,7 +41,7 @@ A collection of scripts for 7.5" e-ink displays
 
     This will change the display script every 10 minutes, switch between bitcoin info and picture frame with the default setup
 
-7.  Use dietpi-config -> Autostart options -> Custom script (background, no autologin) with this script:
+8.  Use dietpi-config -> Autostart options -> Custom script (background, no autologin) with this script:
 
         #!/bin/bash
         # DietPi-Autostart custom script
@@ -53,7 +53,7 @@ A collection of scripts for 7.5" e-ink displays
 
         exit 0
 
-8.  Optional:
+9.  Optional:
     If you have Flic buttons, you can use them to refresh the display/change the script using this script in FlicHub SDK:
 
     ```
