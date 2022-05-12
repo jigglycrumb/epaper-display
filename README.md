@@ -1,6 +1,6 @@
 # epaper display
 
-A collection of scripts for 7.5" e-ink displays
+A collection of scripts for 7.5" Waveshare e-Ink displays
 
 ![epaper-front](https://user-images.githubusercontent.com/1476865/168150419-a330e386-8eb9-402c-b98f-0a8688f49a43.jpg)
 
