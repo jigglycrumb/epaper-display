@@ -39,11 +39,11 @@ The display hosts a small website - open http://epaper to access it.
 It will show the current script (and image, if the picture script is active)
 and links to refresh the display or change the script:
 
-- http://epaper/refresh
+- http://epaper/refresh  
   Refreshes the display.  
   When the picture script is active, it changes to the next picture.
 
-- http://epaper/flip-the-script
+- http://epaper/flip-the-script  
   Changes the current display script and refreshes the display.  
   Modify the `scripts` variable in `display/serve.py` to adjust included scripts.  
   The default scripts are the `bitcoin.py` and `picture.py` script.
