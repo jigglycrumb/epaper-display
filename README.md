@@ -94,7 +94,7 @@ and links to refresh the display or change the script:
 
     A single click will refresh, double click or hold will change the script.
 
-    To set this up, open FlicHub SDK, create a new module, paste this script and start it.
+    To set this up, open [FlicHub SDK](https://hubsdk.flic.io/), create a new module, paste this script and start it.
     Then, connect a button via the app and name it `ePaper`.
 
     ```javascript
