@@ -12,7 +12,7 @@ if os.path.exists(libdir):
 import logging
 from waveshare_epd import epd7in5bc
 import time
-from PIL import Image,ImageDraw,ImageFont, ImageOps, ImageEnhance
+from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 import traceback
 
 import requests # request img from web
