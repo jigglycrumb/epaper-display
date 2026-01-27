@@ -2,6 +2,13 @@
 
 A collection of scripts for 7.5" Waveshare e-Ink displays
 
+# NOTE
+
+This repository moved to Codeberg.
+
+New repo: https://codeberg.org/jiggly/epaper-display
+
+
 ![epaper-front](https://user-images.githubusercontent.com/1476865/168150419-a330e386-8eb9-402c-b98f-0a8688f49a43.jpg)
 
 ![epaper-back](https://user-images.githubusercontent.com/1476865/168150472-f4ccc03f-5fee-44b2-b353-94d27c2aff33.jpg)
